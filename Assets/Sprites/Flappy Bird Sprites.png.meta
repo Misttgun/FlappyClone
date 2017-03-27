@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8dd33e2aa3a655e4f8ffb40f93117128
-timeCreated: 1490535839
+timeCreated: 1490636280
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -27,11 +27,11 @@ TextureImporter:
     21300040: medal_bronze
     21300042: medal_gold
     21300044: medal_silver
-    21300046: Flappy Bird Sprites_29
-    21300048: Flappy Bird Sprites_30
-    21300050: Flappy Bird Sprites_31
-    21300052: Flappy Bird Sprites_32
-    21300054: play_buton
+    21300046: pause_button
+    21300048: resume_button
+    21300050: ground
+    21300052: score_panel
+    21300054: start_buton
     21300056: leaderbord
     21300058: twitter_button
   serializedVersion: 4
@@ -288,7 +288,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -301,7 +301,7 @@ TextureImporter:
         width: 4
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -423,7 +423,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Flappy Bird Sprites_29
+      name: pause_button
       rect:
         serializedVersion: 2
         x: 542
@@ -431,12 +431,12 @@ TextureImporter:
         width: 84
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Flappy Bird Sprites_30
+      name: resume_button
       rect:
         serializedVersion: 2
         x: 660
@@ -444,25 +444,25 @@ TextureImporter:
         width: 63
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Flappy Bird Sprites_31
+      name: ground
       rect:
         serializedVersion: 2
-        x: 23
-        y: 214
-        width: 719
-        height: 238
+        x: 24
+        y: 215
+        width: 717
+        height: 236
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Flappy Bird Sprites_32
+      name: score_panel
       rect:
         serializedVersion: 2
         x: 19
@@ -470,12 +470,12 @@ TextureImporter:
         width: 206
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: play_buton
+      name: start_buton
       rect:
         serializedVersion: 2
         x: 242
