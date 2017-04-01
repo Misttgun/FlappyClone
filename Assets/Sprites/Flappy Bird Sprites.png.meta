@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8dd33e2aa3a655e4f8ffb40f93117128
-timeCreated: 1490636280
+timeCreated: 1491053633
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -361,9 +361,9 @@ TextureImporter:
       name: Flappy Bird Sprites_24
       rect:
         serializedVersion: 2
-        x: 214
+        x: 215
         y: 598
-        width: 166
+        width: 164
         height: 100
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -374,9 +374,9 @@ TextureImporter:
       name: google_play
       rect:
         serializedVersion: 2
-        x: 397
+        x: 398
         y: 598
-        width: 164
+        width: 163
         height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -480,7 +480,7 @@ TextureImporter:
         serializedVersion: 2
         x: 242
         y: 47
-        width: 252
+        width: 251
         height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -491,9 +491,9 @@ TextureImporter:
       name: leaderbord
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 45
-        width: 257
+        width: 255
         height: 153
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
