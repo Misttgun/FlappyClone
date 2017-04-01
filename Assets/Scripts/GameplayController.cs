@@ -103,11 +103,11 @@ public class GameplayController : MonoBehaviour {
 
         _bestScore.text = "" + GameController.instance.GetHighScore();
 
-        if(score <= 20)
+        if(score <= 10)
         {
             _medalImage.sprite = _medals[0];
         }
-        else if(score > 20 && score <= 40)
+        else if(score > 10 && score <= 20)
         {
             _medalImage.sprite = _medals[1];
             if(GameController.instance.IsGreenBirdUnlocked() == 0)
